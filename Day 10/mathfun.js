@@ -1,18 +1,17 @@
 /*
-let value= Math.max(8,9,7,8,4,3,20)
+let value= Math.max(8,9,30,8,4,3,20)
 console.log(value)
-let value1= Math.min(8,9,7,8,4,3,20)
+let value1= Math.min(8,9,7,8,4,1,20)
 console.log(value1)
 
 // array : find the minimum value 
-let arr=[8,9,7,8,4,3,20];
+let arr=[8,22,7,8,4,3,20];
 console.log(Math.min(...arr))
-
 */
 
 // rounding off : convert into integer
 let num=12.567897;
-let val1= Math.round(num);  // rounds off with maths rule >=5
+let val1= Math.round(num); // rounds off with maths rule >=5
 console.log(val1)
 let val2= Math.ceil(num); // nearest maximum integer
 console.log(val2)
