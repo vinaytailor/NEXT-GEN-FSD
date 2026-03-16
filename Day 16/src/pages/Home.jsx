@@ -6,13 +6,12 @@ import Services from './Services'
 import About from './About'
 import Media from './Media'
 import Login from './Login'
-import { useNavigate } from 'react-router-dom'
+// import { useNavigate } from 'react-router-dom'
 export default function Home() {
-    const navigate = useNavigate();
-    // eslint-disable-next-line no-unused-vars
-    const handleClick = () => {
-        navigate('/about');
-    };
+    // const navigate = useNavigate();
+    // const handleClick = () => {
+    //     navigate('/about');
+    // };
     return (
         <div>
             <NavBar/>
